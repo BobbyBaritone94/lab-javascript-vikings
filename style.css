@@ -1,0 +1,79 @@
+#thePage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#viking >img {
+   
+   position:absolute;
+   left: 3vh;
+   bottom:2vh;
+   
+}
+
+#viking {
+    opacity:0;
+}
+#Saxon {
+    opacity:0;
+}
+
+section div img {
+    width:auto;
+    height:15vh;
+}
+
+#healthBarBorderV {
+    position:absolute;
+    top: 10vh;
+    left:5%;
+    width:30%;
+    height:50px;
+    border: solid 4px black;
+}
+
+#HPV > img {
+    position:absolute;
+    width:100%;
+    height:50px;
+    background-color: red;
+}
+
+#healthBarBorderS {
+    position:absolute;
+    top: 10vh;
+    right: 5%;
+    width:30%;
+    height:50px;
+    border: solid 4px black;
+}
+
+#HPS > img {
+    position:absolute;
+    width:100%;
+    height:50px;
+    background-color: red;
+}
+
+#versus {
+    position: absolute;
+    top:25vh;
+    left:32vh;
+}
+
+#gameBoard{
+    position: relative;
+}
+
+#Saxon >img{
+    
+    position:absolute;
+    right: 3vh;
+    bottom:2vh;
+    transform: scaleX(-1);
+}
+
+
